@@ -4,7 +4,6 @@ import { AppComponent } from './app.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { HeaderComponent } from './COMPONENTS/header/header.component';
 import { MainComponent } from './COMPONENTS/main/main.component';
-import { AppService } from './SERVICES/app.service';
 import { NumberOnlyDirective } from './number-only.directive';
 
 
@@ -21,7 +20,6 @@ import { NumberOnlyDirective } from './number-only.directive';
     BrowserModule
   ],
   providers:[
-    AppService
   ],
   bootstrap: [
     AppComponent

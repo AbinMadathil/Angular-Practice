@@ -1,5 +1,4 @@
 import { Component, OnInit} from '@angular/core';
-import { AppService } from '../../SERVICES/app.service';
 import { CommonModule } from '@angular/common';
 
 interface bookDetails{
@@ -51,7 +50,7 @@ export class MainComponent implements OnInit{
       }
     ]
   }
-  constructor(private appService: AppService){}
+  
 
   public getBookDetails(index:number):void{
     if(this.bookDetails){
